@@ -1,0 +1,686 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-08T17:17:04.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 65450182995,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify QTY update basket functionality",
+        "description": "",
+        "id": "this-feature-is-to-check-basket-page-functionality;verify-qty-update-basket-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 518142667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 915462315,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on continue button in country switcher page",
+            "match": {
+              "location": "Search.userClicksOnContinueButtonInCountrySwitcherPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4051489851,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is at home page of the application",
+            "match": {
+              "location": "Search.user_is_at_home_page_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5208264532,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on search text box",
+            "match": {
+              "location": "Search.user_clicks_on_search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26785137349,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters search keywords",
+            "match": {
+              "location": "Search.user_enters_search_keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5739000112,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search result are displayed",
+            "match": {
+              "location": "Search.search_result_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 764425996,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on first product in search result page",
+            "match": {
+              "location": "ProductDetailsPage.user_click_on_first_product_in_search_result_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9429776651,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on add to basket",
+            "match": {
+              "location": "ProductDetailsPage.user_clicks_on_add_to_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12904184799,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User update product QTY in the basket",
+            "match": {
+              "location": "BasketScreen.user_update_product_qty_in_the_basket()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-08T17:19:16.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 64880330697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify basket important elements or attributes",
+        "description": "",
+        "id": "this-feature-is-to-check-basket-page-functionality;verify-basket-important-elements-or-attributes",
+        "after": [
+          {
+            "result": {
+              "duration": 582646384,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325221380,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on continue button in country switcher page",
+            "match": {
+              "location": "Search.userClicksOnContinueButtonInCountrySwitcherPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3915183108,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User is at home page of the application",
+            "match": {
+              "location": "Search.user_is_at_home_page_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5196941414,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on search text box",
+            "match": {
+              "location": "Search.user_clicks_on_search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27179547525,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters search keywords",
+            "match": {
+              "location": "Search.user_enters_search_keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5795930037,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Search result are displayed",
+            "match": {
+              "location": "Search.search_result_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 802846392,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User click on first product in search result page",
+            "match": {
+              "location": "ProductDetailsPage.user_click_on_first_product_in_search_result_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9157674657,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on add to basket",
+            "match": {
+              "location": "ProductDetailsPage.user_clicks_on_add_to_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350927306,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify shipping information text",
+            "match": {
+              "location": "BasketScreen.verifyShippingInformationText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212215606,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Verify Including VAT text",
+            "match": {
+              "location": "BasketScreen.verifyIncludingVATText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 229357288,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Verify Got a Promo Text",
+            "match": {
+              "location": "BasketScreen.verifyGotAPromoText()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5281118679,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify Use It Here link",
+            "match": {
+              "location": "BasketScreen.verifyUseItHereLink()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 240770242,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify Proceed To Checkout button",
+            "match": {
+              "location": "BasketScreen.verifyProceedToCheckoutButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-08T17:21:20.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 97209340569,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Apply invalid voucher functionality",
+        "description": "",
+        "id": "this-feature-is-to-check-basket-page-functionality;apply-invalid-voucher-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 517010619,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 342008147,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on continue button in country switcher page",
+            "match": {
+              "location": "Search.userClicksOnContinueButtonInCountrySwitcherPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3874284038,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User is at home page of the application",
+            "match": {
+              "location": "Search.user_is_at_home_page_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5189666356,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User clicks on search text box",
+            "match": {
+              "location": "Search.user_clicks_on_search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27395257523,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters search keywords",
+            "match": {
+              "location": "Search.user_enters_search_keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5792340231,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Search result are displayed",
+            "match": {
+              "location": "Search.search_result_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 831303726,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on first product in search result page",
+            "match": {
+              "location": "ProductDetailsPage.user_click_on_first_product_in_search_result_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10222973926,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on add to basket",
+            "match": {
+              "location": "ProductDetailsPage.user_clicks_on_add_to_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43162642587,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Apply promo code \"Promo10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Promo10\"",
+                  "offset": 17
+                }
+              ],
+              "location": "BasketScreen.applyPromoCode(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check basket page functionality",
+    "description": "",
+    "id": "this-feature-is-to-check-basket-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Basket.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-08T17:24:35.050Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71195310797,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify add to basket functionality",
+        "description": "",
+        "id": "this-feature-is-to-check-product-page-functionality;verify-add-to-basket-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 546800757,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 341912102,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on continue button in country switcher page",
+            "match": {
+              "location": "Search.userClicksOnContinueButtonInCountrySwitcherPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3914228701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is at home page of the application",
+            "match": {
+              "location": "Search.user_is_at_home_page_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5219639653,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on search text box",
+            "match": {
+              "location": "Search.user_clicks_on_search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26973724333,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters search keywords",
+            "match": {
+              "location": "Search.user_enters_search_keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5729003007,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search result are displayed",
+            "match": {
+              "location": "Search.search_result_are_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 761183804,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on first product in search result page",
+            "match": {
+              "location": "ProductDetailsPage.user_click_on_first_product_in_search_result_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9437062277,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on add to basket",
+            "match": {
+              "location": "ProductDetailsPage.user_clicks_on_add_to_basket()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check product page functionality",
+    "description": "",
+    "id": "this-feature-is-to-check-product-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ProductDetailsPage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-08T17:26:39.170Z",
+        "before": [
+          {
+            "result": {
+              "duration": 74535926440,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpAppium()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify search functionality",
+        "description": "",
+        "id": "this-feature-is-to-check-search-functionality-of-the-application;verify-search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 489271200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 304349757,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on continue button in country switcher page",
+            "match": {
+              "location": "Search.userClicksOnContinueButtonInCountrySwitcherPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3500293166,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is at home page of the application",
+            "match": {
+              "location": "Search.user_is_at_home_page_of_the_application()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5214685369,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on search text box",
+            "match": {
+              "location": "Search.user_clicks_on_search_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26679268182,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters search keywords",
+            "match": {
+              "location": "Search.user_enters_search_keywords()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5776299143,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Search result are displayed",
+            "match": {
+              "location": "Search.search_result_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to check search functionality of the application",
+    "description": "",
+    "id": "this-feature-is-to-check-search-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Search.feature",
+    "tags": []
+  }
+]
